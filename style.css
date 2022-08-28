@@ -1,0 +1,112 @@
+body{
+    background-color: dodgerblue;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: white;
+    
+}
+.titulo h1{
+    font-weight: 700; 
+    font-size: 3rem;
+}
+.container{
+   
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    max-width: 800px;
+  
+    
+    
+}
+.row{
+ 
+    justify-content: center;
+    align-items: center;
+   text-align: start;
+   margin-bottom: 15px;
+  
+   font-size: 1.4rem;
+}
+.resultado{
+    font-size: 1.4rem;
+   
+}
+/*FOOTER*/
+.footer{
+    margin-top: 40px;
+}
+.footer a{
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer a:hover{
+    color: rgb(69, 68, 68);
+    text-decoration: none;
+    transition: 0.5s;
+}
+/*BOTÃO*/
+.btn{
+    min-width: 80px;
+    max-width: 30%;
+}
+.botao{
+display: flex;
+justify-content: flex-start;
+}
+
+/*RESPONSIVIDADE*/
+
+/*SMARTPHONES*/
+@media (min-width:480px) {
+  
+   #labelinput{
+    font-size: 1.3rem;
+    
+   }
+   .titulo h1{
+   font-size: 3.5rem;
+}
+}
+
+/*TABLETS*/
+@media (min-width:768px) {
+    .btn{
+        font-size: 1.2rem;
+    }
+   #labelinput{
+    font-size: 2rem;
+    
+   }
+   .titulo h1{
+   font-size: 4rem;
+}
+.footer a{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif
+ 
+}
+}
+
+/*TABLETS e DESKTOPS*/
+@media (min-width:960px) {
+   
+}
+
+/*LARGE DEVICES*/
+@media (min-width:1280px) {
+ 
+
+}
